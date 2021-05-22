@@ -1,0 +1,97 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background-color: rgb(29, 28, 28);
+   justify-content: center;
+}
+h2{
+    text-align: center;
+
+    color:rgb(16, 255, 215) ;
+    margin: 0;
+    padding: 0 0 20px;
+    font-size: 40px;
+}
+.container p{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: rgb(16, 255, 215);
+}
+.container input{
+   width: 100%;
+   margin-bottom: 20px;
+
+}
+.container input[type="text"], .container input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #85ffdb;
+    background: transparent;
+    outline: none;
+    height: 44px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.container input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 38px;
+    color: #fff;
+    border-radius: 23px;
+    cursor: pointer;
+    background:linear-gradient(0deg, rgba(108,190,203,1) 0%, rgba(56,118,128,1) 50% ,rgba(63,154,157,1) 100%);
+
+}
+.container input[type="submit"]:hover{
+    background: linear-gradient(0deg, rgba(63,154,157,1) 0%,rgba(56,118,128,1) 50% ,rgba(108,190,203,1) 100%);
+
+}
+.container a{
+    color: rgb(16, 255, 215);
+    font-size: 15px;
+    font-weight: bold;
+}
+::placeholder{
+    color: rgba(72,237,100,0.6);
+}
+.container{
+    
+    width: 350px;
+    height: 420px;
+    padding: 80px 40px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    background-color: rgb(77, 77, 77);
+    color: #fff;
+    box-sizing: border-box;
+    z-index: 1;
+    border-radius:6%;
+    box-shadow: 0 0 10ch black;
+    
+}
+
+[class*="wrapper"]{
+    width: 100%;
+}
+
+
+ .trapezoid{
+    position: absolute;
+    height:0;
+    width:40%;
+    border-bottom:100vh solid whitesmoke;
+    
+    border-left: 185px solid transparent;
+    
+    border-right: 185px solid transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    filter: drop-shadow(0 0 50px rgb(0, 247, 255));
+
+    
+}
