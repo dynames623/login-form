@@ -2,8 +2,9 @@ body{
 
     margin: 0;
     padding: 0;
-    background-color: rgb(29, 28, 28);
+    background-color: rgb(0, 0, 0);
    justify-content: center;
+   overflow: hidden;
 }
 h2{
     text-align: center;
@@ -20,8 +21,9 @@ h2{
     color: rgb(16, 255, 215);
 }
 .container input{
-   width: 100%;
+   width: 96%;
    margin-bottom: 20px;
+
 
 }
 .container input[type="text"], .container input[type="password"]{
@@ -32,9 +34,11 @@ h2{
     height: 44px;
     color: #fff;
     font-size: 17px;
+    padding-left: 5px;
 }
 
 .container input[type="submit"]{
+    margin-top: 17px;
     border: none;
     outline: none;
     height: 38px;
@@ -59,8 +63,8 @@ h2{
 .container{
     
     width: 350px;
-    height: 420px;
-    padding: 80px 40px;
+    height: 460px;
+    padding: 80px 45px;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -74,16 +78,14 @@ h2{
     
 }
 
-[class*="wrapper"]{
-    width: 100%;
-}
+
 
 
  .trapezoid{
     position: absolute;
     height:0;
     width:40%;
-    border-bottom:100vh solid whitesmoke;
+    border-bottom:100vh solid rgb(245, 245, 245);
     
     border-left: 185px solid transparent;
     
